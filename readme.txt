@@ -13,15 +13,6 @@ Language Analysis Essentials or LANES is a suite of open source Java modules for
  
  *Not available currently
  
- 
-INSTALLATION
-
-- Java 7 or higher is required for compiling and running the Java codes. If you're using the library on a Windows platform, use the build.bat and run.bat. Configure the paths in these two files accordingly.
-- The library depends on MySQL, Solr index of Wikipedia and WordNet for providing, storing and indexing the background knowledge used by the tools. Please ensure that you have the first two software installed.
-- Create a MySQL database called "lanes" and data from two tables need to be populated into "lanes". The first table is called "lexicon" and the SQL file containing the insert  statements is located in /data/lanes_lexicon.sql. The second (two-column) table called "category" is a mash up of links from Wikipedia articles to categories and from categories to categories. The file /data/lanes_category.sql contains only the structure of the table. These links can be downloaded from DBPedia.
-- A Solr instance is required to index the full text of Wikipedia. The Wikipedia text dump can be downloaded from Wikipedia.
-- As for WordNet, it's packaged together with LANES in /data/wnet/
-
 
 LICENSE
 
@@ -32,6 +23,15 @@ LICENSE
 - Apache Solr for indexing and searching the Wikipedia text dump: Licensed under the Apache License 2.0.
 - Wikipedia text dump: Licensed under the GNU Free Documentation License.
 - Lang and Codec libraries from Apache Commons for string manipulation, coding and encoding: These libraries are licensed under the Apache License 2.0.
+
+ 
+INSTALLATION
+
+- Java 7 or higher is required for compiling and running the Java codes. If you're using the library on a Windows platform, use the build.bat and run.bat. Configure the paths in these two files accordingly.
+- The library depends on MySQL, Solr index of Wikipedia and WordNet for providing, storing and indexing the background knowledge used by the tools. Please ensure that you have the first two software installed.
+- Create a MySQL database called "lanes" and data from two tables need to be populated into "lanes". The first table is called "lexicon" and the SQL file containing the insert  statements is located in /data/lanes_lexicon.sql. The second (two-column) table called "category" is a mash up of links from Wikipedia articles to categories and from categories to categories. The file /data/lanes_category.sql contains only the structure of the table. These links can be downloaded from DBPedia.
+- A Solr instance is required to index the full text of Wikipedia. The Wikipedia text dump can be downloaded from Wikipedia.
+- As for WordNet, it's packaged together with LANES in /data/wnet/
 
 
 CONFIGURATION
