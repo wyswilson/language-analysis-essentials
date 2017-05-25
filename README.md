@@ -13,6 +13,7 @@ Language Analysis Essentials or LANES is a suite of open source Java modules for
  
  *Not available currently
  
+ 
 INSTALLATION
 
 (1) Java 7 or higher is required for compiling and running the Java codes. If you're using the library on a Windows platform, use the build.bat and run.bat. Configure the paths in these two files accordingly.
@@ -25,17 +26,32 @@ INSTALLATION
 
 (5) As for WordNet, it's packaged together with LANES in /data/wnet/
 
+
+LICENSE
+
+The LANES source code is released under the GNU GPL v3 License. Refer to the Java docs for more information. Some of the incorporated code and data fall under different licenses, all of which are GNU GPL compatible, as listed below:
+
+- Java WordNet Library for lemmatisation: The library and WordNet are both licensed under the BSD License.
+- Illinois Part of Speech Tagger for part-of-speech tagging: Licensed under the University of Illinois/NCSA Open Source License.
+- Illinois Learning Based Java Package for tokenisation: Licensed under the University of Illinois/NCSA Open Source License.
+- Apache Solr for indexing and searching the Wikipedia text dump: Licensed under the Apache License 2.0.
+- Wikipedia text dump: Licensed under the GNU Free Documentation License.
+- Lang and Codec libraries from Apache Commons for string manipulation, coding and encoding: These libraries are licensed under the Apache License 2.0.
+
+
 CONFIGURATION
 
 (1) Please configure the paths, user name and password in /src/org/lanes/utility/CommonData.java accordingly.
 
 (2) Also, look into the /data/conf/ directory for files that require configuring.
 
+
 EXAMPLES
 
 Please refer to /src/org/lanes/Example.java
 
-TO DO
+
+TO-DO
 
 (1) Make available the Solr index of Wikipedia
 
