@@ -25,8 +25,7 @@ INSTALLATION
 
 LICENSE
 
-The LANES source code is released under the GNU GPL v3 License. Refer to the Java docs for more information. Some of the incorporated code and data fall under different licenses, all of which are GNU GPL compatible, as listed below:
-
+- The LANES source code is released under the GNU GPL v3 License. Refer to the Java docs for more information. Some of the incorporated code and data fall under different licenses, all of which are GNU GPL compatible, as listed below.
 - Java WordNet Library for lemmatisation: The library and WordNet are both licensed under the BSD License.
 - Illinois Part of Speech Tagger for part-of-speech tagging: Licensed under the University of Illinois/NCSA Open Source License.
 - Illinois Learning Based Java Package for tokenisation: Licensed under the University of Illinois/NCSA Open Source License.
@@ -43,7 +42,7 @@ CONFIGURATION
 
 EXAMPLES
 
-Please refer to /src/org/lanes/Example.java
+- Please refer to /src/org/lanes/Example.java
 
 
 TO-DO
