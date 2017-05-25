@@ -1,8 +1,7 @@
 OVERVIEW
 
-Language Analysis Essentials or LANES is a suite of open source Java modules for natural language processing and text mining. The toolkit includes modules for:
-
-- measurement of content bearingness of terms.
+- Language Analysis Essentials or LANES is a suite of open source Java modules for natural language processing and text mining. The toolkit includes modules for:
+-- measurement of content bearingness of terms.
 - measurement of surface similarity of strings.
 - parsing sentences and extracting keyterms.
 - clustering of terms (with measurement of semantic relatedness of terms).
